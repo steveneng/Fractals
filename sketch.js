@@ -7,7 +7,6 @@ function setup(){
   slider= createSlider(0, TWO_PI, PI/4, 0.01);
   slider2= createSlider(1,700,100,1);
 };
-
 function draw(){
   background(51);
   angle= slider.value(); // stores the angle value
